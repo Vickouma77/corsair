@@ -31,5 +31,4 @@ coverage
 *.tsbuildinfo
 
 tsconfig.app.json
-tsconfig.node.json
 env.d.ts
