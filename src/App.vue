@@ -1,11 +1,7 @@
 <script setup lang="ts">
-import NavbarComponent from './components/NavbarComponent.vue';
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <NavbarComponent />
+  <Navbar />
 </template>
-
-<style scoped>
-
-</style>
