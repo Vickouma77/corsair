@@ -1,5 +1,16 @@
 <script setup>
 import videoSrc from '@/assets/img/sea.mp4';
+
+defineProps({
+  title: {
+    type: String,
+    default: 'Become a Pirate',
+  },
+  subtitle: {
+    type: String,
+    default: 'Find a wide range of pirate jobs and opportunities',
+  },
+})
 </script>
 
 <template>
@@ -27,10 +38,10 @@ import videoSrc from '@/assets/img/sea.mp4';
         <h1
           class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
         >
-          Become a Pirate
+          {{ title }}
         </h1>
         <p class="my-4 text-xl font-bold text-white sm:text-clip md:text-2xl">
-          Find a wide range of pirate jobs and opportunities
+          {{ subtitle }}
         </p>
       </div>
     </div>

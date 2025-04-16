@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Quartermaster",
+        "type": "Officer",
+        "description": "Responsible for managing supplies, rations, and crew discipline. Second-in-command to the Captain.",
+        "ship_name": "The Black Kraken",
+        "treasure_reward": "500 gold doubloons",
+        "required_experience": "5 years at sea",
+        "skills": ["Navigation", "Leadership", "Inventory Management"],
+        "danger_level": "Moderate",
+        "location": "Caribbean Sea"
+    },
+    {
+        "id": 2,
+        "title": "Helmsman",
+        "type": "Crew",
+        "description": "Steers the ship and ensures accurate navigation through treacherous waters.",
+        "ship_name": "The Crimson Cutlass",
+        "treasure_reward": "300 gold doubloons",
+        "required_experience": "3 years at sea",
+        "skills": ["Steering", "Map Reading", "Weather Forecasting"],
+        "danger_level": "High",
+        "location": "Bermuda Triangle"
+    },
+    {
+        "id": 3,
+        "title": "Boatswain",
+        "type": "Officer",
+        "description": "Oversees ship maintenance, rigging, and crew coordination during battles.",
+        "ship_name": "The Sea Serpent",
+        "treasure_reward": "400 gold doubloons",
+        "required_experience": "4 years at sea",
+        "skills": ["Rigging", "Carpentry", "Team Management"],
+        "danger_level": "Moderate",
+        "location": "South Pacific"
+    },
+    {
+        "id": 4,
+        "title": "Gunner",
+        "type": "Crew",
+        "description": "Manages cannons and ensures deadly accuracy during ship-to-ship combat.",
+        "ship_name": "The Iron Leviathan",
+        "treasure_reward": "350 gold doubloons",
+        "required_experience": "2 years at sea",
+        "skills": ["Marksmanship", "Cannon Maintenance", "Explosives Handling"],
+        "danger_level": "Very High",
+        "location": "Mediterranean Sea"
+    },
+    {
+        "id": 5,
+        "title": "Cook",
+        "type": "Crew",
+        "description": "Prepares meals for the crew, often under limited resources and rough seas.",
+        "ship_name": "The Golden Barnacle",
+        "treasure_reward": "200 gold doubloons",
+        "required_experience": "1 year at sea",
+        "skills": ["Cooking", "Resourcefulness", "Knife Skills"],
+        "danger_level": "Low",
+        "location": "Indian Ocean"
+    },
+    {
+        "id": 6,
+        "title": "Navigator",
+        "type": "Officer",
+        "description": "Plots the ship's course using stars, maps, and instruments to avoid hazards.",
+        "ship_name": "The Starless Abyss",
+        "treasure_reward": "450 gold doubloons",
+        "required_experience": "5 years at sea",
+        "skills": ["Astronomy", "Cartography", "Instrument Use"],
+        "danger_level": "Moderate",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": 7,
+        "title": "Shipwright",
+        "type": "Crew",
+        "description": "Builds and repairs the ship's hull, masts, and other wooden structures.",
+        "ship_name": "The Timber Terror",
+        "treasure_reward": "320 gold doubloons",
+        "required_experience": "3 years at sea",
+        "skills": ["Carpentry", "Ship Design", "Woodworking"],
+        "danger_level": "Low",
+        "location": "North Sea"
+    },
+    {
+        "id": 8,
+        "title": "Musician",
+        "type": "Crew",
+        "description": "Plays instruments to boost crew morale and signal commands during battle.",
+        "ship_name": "The Siren's Call",
+        "treasure_reward": "180 gold doubloons",
+        "required_experience": "1 year at sea",
+        "skills": ["Music Performance", "Improvisation", "Signal Coordination"],
+        "danger_level": "Low",
+        "location": "Caribbean Sea"
+    },
+    {
+        "id": 9,
+        "title": "Cooper",
+        "type": "Crew",
+        "description": "Crafts and maintains barrels for storing water, rum, and provisions.",
+        "ship_name": "The Drunken Kraken",
+        "treasure_reward": "250 gold doubloons",
+        "required_experience": "2 years at sea",
+        "skills": ["Barrel Making", "Woodworking", "Sealing Techniques"],
+        "danger_level": "Low",
+        "location": "South Atlantic"
+    },
+    {
+        "id": 10,
+        "title": "Sailmaker",
+        "type": "Crew",
+        "description": "Sews and repairs sails to ensure the ship catches optimal wind.",
+        "ship_name": "The Wind Wraith",
+        "treasure_reward": "280 gold doubloons",
+        "required_experience": "2 years at sea",
+        "skills": ["Sewing", "Canvas Work", "Knot Tying"],
+        "danger_level": "Moderate",
+        "location": "Pacific Ocean"
+    }
+]
