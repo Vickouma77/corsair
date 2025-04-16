@@ -16,18 +16,18 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
-    "@tailwindcss/vite": "^4.1.14",
+    "@tailwindcss/vite": "^4.1.4",
     "primeicons": "^7.0.0",
-    "tailwindcss": "^4.1.14",
+    "tailwindcss": "^4.1.4",
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@tsconfig/node22": "^22.0.0",
+    "@tsconfig/node22": "^22.0.1",
     "@types/node": "^22.13.9",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "npm-run-all2": "^7.0.2",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "vite": "^6.2.1",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vue-tsc": "^2.2.8"
