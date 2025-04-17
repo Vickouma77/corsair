@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterLink } from 'vue-router';
 import Card from '@/components/Card.vue';
 </script>
 
@@ -13,12 +14,12 @@ import Card from '@/components/Card.vue';
             <p class="mt-2 mb-4">
                 Find the perfect job for you and start your adventure
             </p>
-            <a
-              href="jobs.html"
+            <RouterLink
+              to="/jobs"
               class="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
             >
               Browse Jobs
-            </a>
+          </RouterLink>
           </Card>
 
           <Card bg="bg-blue-200">
@@ -26,12 +27,12 @@ import Card from '@/components/Card.vue';
             <p class="mt-2 mb-4">
                 Post your job and find the perfect crew for your ship
             </p>
-            <a
-              href="add-job.html"
+            <RouterLink
+              to="jobs/add"
               class="inline-block bg-blue-500 text-white rounded-lg px-4 py-2 hover:bg-green-600"
             >
               Add Job
-            </a>
+            </RouterLink>
         </Card>
         
         </div>
