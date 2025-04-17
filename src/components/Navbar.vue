@@ -1,6 +1,11 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
+import { RouterLink, useRoute } from 'vue-router';
 import logo from '@/assets/img/corsair.png';
+
+const isActiveLink = (routePath: string) => {
+    const route = useRoute();
+    return route.path === routePath;
+}
 </script>
 
 <template>
@@ -16,17 +21,32 @@ import logo from '@/assets/img/corsair.png';
                         <div class="flex space-x-2">
                             <RouterLink
                                 to="/"
-                                class="text-white bg-sky-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2">
+                                :class="[
+                                    isActiveLink('/') 
+                                    ? 'bg-gray-900 text-white' 
+                                    : 'hover:bg-sky-900 hover:text-white',
+                                    'text-white rounded-md px-3 py-2'
+                                ]">
                                 Home
                             </RouterLink>
                             <RouterLink
                                     to="/jobs"
-                                    class="text-white hover:bg-sky-900 hover:text-white rounded-md px-3 py-2"
+                                    :class="[
+                                    isActiveLink('/jobs') 
+                                    ? 'bg-gray-900 text-white' 
+                                    : 'hover:bg-sky-900 hover:text-white',
+                                    'text-white rounded-md px-3 py-2'
+                                ]"
                                     >Jobs
                             </RouterLink>
                             <RouterLink
-                                to="/jobs/add"
-                                class="text-white hover:bg-sky-900 hover:text-white rounded-md px-3 py-2"
+                                    to="/jobs/add"
+                                    :class="[
+                                        isActiveLink('/jobs/add') 
+                                        ? 'bg-gray-900 text-white' 
+                                        : 'hover:bg-sky-900 hover:text-white',
+                                        'text-white rounded-md px-3 py-2'
+                                    ]"
                                 >Add Job
                             </RouterLink>
                         </div>
