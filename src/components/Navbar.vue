@@ -25,7 +25,7 @@ const isActiveLink = (routePath: string) => {
                                     isActiveLink('/') 
                                     ? 'bg-gray-900 text-white' 
                                     : 'hover:bg-sky-900 hover:text-white',
-                                    'text-white rounded-md px-3 py-2'
+                                      'text-white rounded-md px-3 py-2'
                                 ]">
                                 Home
                             </RouterLink>
