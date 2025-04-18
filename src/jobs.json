@@ -1,15 +1,18 @@
-[
+{
+    "jobs": [
     {
         "id": 1,
         "title": "Quartermaster",
         "type": "Officer",
         "description": "The Quartermaster manages the ship's supplies, rations, and crew discipline with an iron fist, acting as the Captain's trusted second-in-command, ensuring order and fairness in dividing the plunder among the scurvy dogs aboard.",
         "ship_name": "The Black Kraken",
+        "ship_info": "The Black Kraken is a legendary vessel renowned for its unparalleled speed and agility, slicing through the waves like a shadow in the night. Feared by merchants and navies alike, its sleek design and cunning crew make it a formidable predator on the high seas, striking swiftly and vanishing before enemies can retaliate.",
         "treasure_reward": "500 gold doubloons",
         "required_experience": "5 years at sea",
         "skills": ["Navigation", "Leadership", "Inventory Management"],
         "danger_level": "Moderate",
-        "location": "Caribbean Sea"
+        "location": "Caribbean Sea",
+        "contact": "Send a message in a bottle to Captain Blackbeard at Port Royal, or seek the Kraken's flag at the Tortuga tavern."
     },
     {
         "id": 2,
@@ -17,11 +20,13 @@
         "type": "Crew",
         "description": "The Helmsman steers the ship through stormy seas and treacherous reefs, using keen instincts and weathered charts to navigate perilous waters, keeping the vessel on course even when the kraken stirs below.",
         "ship_name": "The Crimson Cutlass",
+        "ship_info": "The Crimson Cutlass is a swift and fearsome ship, its blood-red sails a harbinger of doom for those who cross its path. Known for its daring raids and uncanny ability to evade capture, this vessel is a marvel of piratical engineering, crewed by rogues who thrive on the thrill of the chase.",
         "treasure_reward": "300 gold doubloons",
         "required_experience": "3 years at sea",
         "skills": ["Steering", "Map Reading", "Weather Forecasting"],
         "danger_level": "High",
-        "location": "Bermuda Triangle"
+        "location": "Bermuda Triangle",
+        "contact": "Contact Captain Scarlett via the smugglers' network in Nassau, or leave a signal at the Bermuda Triangle's hidden cove."
     },
     {
         "id": 3,
@@ -29,11 +34,13 @@
         "type": "Officer",
         "description": "The Boatswain oversees the ship's maintenance, from rigging to hull repairs, and rallies the crew during fierce battles, barking orders to keep the sails taut and the decks ready for any storm or enemy broadside.",
         "ship_name": "The Sea Serpent",
+        "ship_info": "The Sea Serpent is a sturdy masterpiece, built for grueling long voyages across uncharted waters. Equipped with cutting-edge navigational tools and reinforced hulls, this ship is a beacon of resilience, its crew legendary for their endurance and precision in the face of tempests and foes.",
         "treasure_reward": "400 gold doubloons",
         "required_experience": "4 years at sea",
         "skills": ["Rigging", "Carpentry", "Team Management"],
         "danger_level": "Moderate",
-        "location": "South Pacific"
+        "location": "South Pacific",
+        "contact": "Reach Captain Maelstrom through the traders' guild in Tahiti, or signal the Serpent at the Fiji anchorage."
     },
     {
         "id": 4,
@@ -41,11 +48,13 @@
         "type": "Crew",
         "description": "The Gunner commands the ship's cannons, ensuring each shot strikes true in the chaos of battle, maintaining the powder and shot while braving enemy fire to sink rival ships and claim their glittering treasures.",
         "ship_name": "The Iron Leviathan",
+        "ship_info": "The Iron Leviathan is a floating fortress, its hull bristling with cannons that unleash devastation upon any who dare challenge it. Designed for relentless naval warfare, this behemoth is feared across the seas, its thunderous volleys echoing as a testament to its unmatched firepower.",
         "treasure_reward": "350 gold doubloons",
         "required_experience": "2 years at sea",
         "skills": ["Marksmanship", "Cannon Maintenance", "Explosives Handling"],
         "danger_level": "Very High",
-        "location": "Mediterranean Sea"
+        "location": "Mediterranean Sea",
+        "contact": "Contact Captain Ironclad at the Gibraltar docks, or send a carrier pigeon to the Leviathan’s base in Malta."
     },
     {
         "id": 5,
@@ -53,11 +62,13 @@
         "type": "Crew",
         "description": "The Cook conjures hearty meals from meager rations, keeping the crew fed and content despite rolling waves and dwindling supplies, wielding a cleaver and cunning to make even hardtack taste like a pirate's feast.",
         "ship_name": "The Golden Barnacle",
+        "ship_info": "The Golden Barnacle is a nimble marvel, its compact frame perfect for lightning-fast raids and daring escapes. Glimmering with a golden hull that dazzles under the sun, this ship is a pirate’s dream, weaving through blockades with grace and leaving pursuers in its wake.",
         "treasure_reward": "200 gold doubloons",
         "required_experience": "1 year at sea",
         "skills": ["Cooking", "Resourcefulness", "Knife Skills"],
         "danger_level": "Low",
-        "location": "Indian Ocean"
+        "location": "Indian Ocean",
+        "contact": "Find Captain Goldtooth at the spice markets of Zanzibar, or leave a message at the Barnacle’s mooring in Madagascar."
     },
     {
         "id": 6,
@@ -65,11 +76,13 @@
         "type": "Officer",
         "description": "The Navigator charts the ship's course by starlight and compass, deciphering ancient maps to dodge deadly shoals and find hidden coves, guiding the crew to riches while evading the clutches of Davy Jones' Locker.",
         "ship_name": "The Starless Abyss",
+        "ship_info": "The Starless Abyss is a mysterious vessel cloaked in shadow, rumored to be cursed yet revered for its navigational prowess. Sailing silently under the cover of darkness, its crew are masters of secrecy, slipping through enemy waters to uncover treasures others dare not seek.",
         "treasure_reward": "450 gold doubloons",
         "required_experience": "5 years at sea",
         "skills": ["Astronomy", "Cartography", "Instrument Use"],
         "danger_level": "Moderate",
-        "location": "Atlantic Ocean"
+        "location": "Atlantic Ocean",
+        "contact": "Signal Captain Nightshade via the smugglers’ code at Cape Verde, or seek the Abyss at the Azores’ hidden harbor."
     },
     {
         "id": 7,
@@ -77,11 +90,13 @@
         "type": "Crew",
         "description": "The Shipwright crafts and mends the ship's timbers, from sturdy masts to watertight hulls, working tirelessly to keep the vessel afloat through storms and cannon fire, ensuring it remains a terror of the high seas.",
         "ship_name": "The Timber Terror",
+        "ship_info": "The Timber Terror is a triumph of craftsmanship, its robust frame built for both speed and durability. Every plank and beam is a testament to piratical ingenuity, allowing this ship to endure the fiercest storms and emerge unscathed, a true terror of the seas.",
         "treasure_reward": "320 gold doubloons",
         "required_experience": "3 years at sea",
         "skills": ["Carpentry", "Ship Design", "Woodworking"],
         "danger_level": "Low",
-        "location": "North Sea"
+        "location": "North Sea",
+        "contact": "Contact Captain Oakheart at the shipyards of Oslo, or leave a message at the Terror’s berth in Copenhagen."
     },
     {
         "id": 8,
@@ -89,11 +104,13 @@
         "type": "Crew",
         "description": "The Musician lifts the crew's spirits with lively shanties and drumbeats, signaling commands in the heat of battle and keeping morale high, their tunes echoing across the waves as the ship sails toward glory.",
         "ship_name": "The Siren's Call",
+        "ship_info": "The Siren’s Call is a ship of enchantment, its decks alive with haunting melodies that captivate friend and foe alike. Known for its lavish entertainments and swift sails, this vessel weaves through the seas like a song, its crew bound by the rhythm of adventure.",
         "treasure_reward": "180 gold doubloons",
         "required_experience": "1 year at sea",
         "skills": ["Music Performance", "Improvisation", "Signal Coordination"],
         "danger_level": "Low",
-        "location": "Caribbean Sea"
+        "location": "Caribbean Sea",
+        "contact": "Seek Captain Melody at the music halls of Havana, or signal the Siren at the Jamaica port."
     },
     {
         "id": 9,
@@ -101,22 +118,27 @@
         "type": "Crew",
         "description": "The Cooper fashions sturdy barrels to store rum, water, and provisions, ensuring they withstand the ship's rocking and salty air, their craft keeping the crew sustained on long voyages to distant, treasure-laden shores.",
         "ship_name": "The Drunken Kraken",
+        "ship_info": "The Drunken Kraken is a boisterous legend, its holds brimming with the finest rum and its decks ringing with raucous laughter. Renowned for its wild parties and unyielding spirit, this ship is a floating celebration, its crew fueled by camaraderie and liquid courage.",
         "treasure_reward": "250 gold doubloons",
         "required_experience": "2 years at sea",
         "skills": ["Barrel Making", "Woodworking", "Sealing Techniques"],
         "danger_level": "Low",
-        "location": "South Atlantic"
+        "location": "South Atlantic",
+        "contact": "Find Captain Rumrunner at the taverns of St. Helena, or leave a barrel-marked note at the Kraken’s dock in Ascension."
     },
     {
         "id": 10,
         "title": "Sailmaker",
         "type": "Crew",
-        "description": "The Sailmaker stitches and repairs the ship's sails, crafting canvas to catch the fiercest winds, their nimble hands ensuring the vessel glides swiftly toward plunder, even when storms tear at the rigging",
+        "description": "The Sailmaker stitches and repairs the ship's sails, crafting canvas to catch the fiercest winds, their nimble hands ensuring the vessel glides swiftly toward plunder, even when storms tear at the rigging.",
         "ship_name": "The Wind Wraith",
+        "ship_info": "The Wind Wraith is a spectral marvel, its gossamer sails designed to harness even the faintest breeze. Built for blistering speed, this ship dances across the waves with ethereal grace, outrunning storms and pursuers alike to claim the ocean’s richest bounties.",
         "treasure_reward": "280 gold doubloons",
         "required_experience": "2 years at sea",
         "skills": ["Sewing", "Canvas Work", "Knot Tying"],
         "danger_level": "Moderate",
-        "location": "Pacific Ocean"
+        "location": "Pacific Ocean",
+        "contact": "Contact Captain Zephyr at the weavers’ guild in Honolulu, or signal the Wraith at the Samoa anchorage."
     }
-]
+    ]
+}
